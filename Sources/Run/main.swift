@@ -1,6 +1,6 @@
 //import App
 //
-//try app(.detect()).run()
+
 
 
 // in main.swift...
@@ -14,3 +14,5 @@ if let requestedPort = ProcessInfo.processInfo.environment["PORT"] {
 } else {
     port = defaultPort
 }
+
+try app(.detect()).run()
