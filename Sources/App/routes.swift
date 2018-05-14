@@ -13,7 +13,7 @@ public func routes(_ router: Router) throws {
     router.get("Girish") { request in
         return "Hello, Girish...!"
     }
-    router.get() { req in
+    router.get("/") { req in
         return "Hello, world....!"
     }
    
