@@ -17,7 +17,7 @@ let salutations: [String] = [
 ]
 // Resolve the port that we want the server to listen on
 let port: Int
-let defaultPort = 80
+let defaultPort = 8000
 if let requestedPort = ProcessInfo.processInfo.environment["PORT"] {
     port = Int(requestedPort) ?? defaultPort
 } else {
